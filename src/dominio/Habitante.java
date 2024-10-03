@@ -19,7 +19,7 @@ public class Habitante{
 		}
 
 	public String toString(){
-		return "Nombre: " + nombre + " " + apellido1 + " " + apellido 2;
+		return "Nombre: " + nombre + " " + apellido1 + " " + apellido2;
 		}
 
 }
