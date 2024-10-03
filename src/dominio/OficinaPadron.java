@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public static class OficinaPadron{//Hemos modificado la clase a "static" para que el método estático pueda acceder a ella
             private ArrayList<Habitante> habitantesPadron = new
             ArrayList<>();
