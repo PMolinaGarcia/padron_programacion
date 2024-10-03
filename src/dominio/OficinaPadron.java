@@ -1,4 +1,7 @@
 import java.util.ArrayList;
+import java.util.Scanner;
+import java.io.IOException;
+import java.io.FileWriter;
 
 public static class OficinaPadron{//Hemos modificado la clase a "static" para que el método estático pueda acceder a ella
             private ArrayList<Habitante> habitantesPadron = new
