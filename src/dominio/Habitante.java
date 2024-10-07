@@ -69,4 +69,3 @@ public static class Habitante{
 
         }
     }
->>>>>>> 02aea54af41b303a46060eb867da77602c9b1001
