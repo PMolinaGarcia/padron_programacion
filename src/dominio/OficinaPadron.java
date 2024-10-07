@@ -51,7 +51,7 @@ public static class OficinaPadron{//Hemos modificado la clase a "static" para qu
                     }
                    }
                 }
-=======
+
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.io.IOException;
@@ -105,4 +105,3 @@ public static class OficinaPadron{//Hemos modificado la clase a "static" para qu
                     }
                    }
                 }
->>>>>>> 02aea54af41b303a46060eb867da77602c9b1001
