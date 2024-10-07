@@ -52,7 +52,7 @@ public static class Habitante{
             
             System.out.println("Los datos son: "+ habitante1.nombreHabitante +" "+ habitante1.apellido1Habitante +" "+ habitante1.apellido2Habitante);
 
-<<<<<<< HEAD
+
 	public String getNombre(){
 		return nombre;
 		}
@@ -66,7 +66,7 @@ public static class Habitante{
 		}
 
 }
-=======
+
         }
     }
 >>>>>>> 02aea54af41b303a46060eb867da77602c9b1001
