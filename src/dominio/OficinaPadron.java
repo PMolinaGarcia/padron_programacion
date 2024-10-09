@@ -10,7 +10,7 @@ import java.io.FileWriter;
 public class OficinaPadron{//Hemos modificado la clase a "static" para que el método estático pueda acceder a ella
             private final ArrayList<Habitante> habitantesPadron = new
             ArrayList<>();
-                    
+
               public OficinaPadron(){
                     cargarHabitantes();
                 }
@@ -18,7 +18,7 @@ public class OficinaPadron{//Hemos modificado la clase a "static" para que el m�
                 habitantesPadron.add(habitante);
                 volcarContactos();
                 }
-              public ArrayList getHabitantesPadron(){
+              public ArrayList <Habitante> getHabitantesPadron(){
                 return habitantesPadron;
                 }
               public int calcularNumeroHabitantes(){
