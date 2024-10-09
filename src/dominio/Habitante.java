@@ -1,5 +1,8 @@
 package dominio;
-public static class Habitante{
+
+import comprobaciones.Comprobacion;
+
+public class Habitante{
 
         //Objetos iniciales
         private String nombreHabitante;
@@ -50,9 +53,8 @@ public static class Habitante{
             //Aquí no hemos creado ningún objeto del tipo comprobación. Al ser estático, el programa sabe que puede ejecutarse sin crear ninguna clase
             Comprobacion.realizarComprobacion();
 
-        public String toString(){
-            return "Nombre: " + nombre + " " + apellido1 + " " + apellido2;
-                }
+              System.out.println("Los datos son: "+ habitante1.nombreHabitante +" "+ habitante1.apellido1Habitante +" "+ habitante1.apellido2Habitante);
 
-        }
+
+          }
     }
